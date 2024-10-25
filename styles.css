@@ -1,0 +1,38 @@
+body {
+    font-family: 'Garamond', serif;
+    background-color: #121212; 
+}
+
+.carousel-item {
+    height: 100vh; 
+    background-color: black;
+}
+
+.carousel-item img {
+    object-fit: cover; 
+    object-position: center top;
+    height: 100vh;
+}
+
+.carousel-caption h5 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+    color: crimson;
+}
+
+.carousel-caption p {
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+}
+
+.carousel-indicators button {
+    background-color: crimson;
+}
